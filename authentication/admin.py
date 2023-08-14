@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib import admin
-from .models import UnileverUser
+from .models.unilever_user import UnileverUser
 
 
 # Register your models here.
