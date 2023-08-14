@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'base',
+    'authentication',
 ]
 
 MIDDLEWARE = [
@@ -88,7 +89,8 @@ DATABASES = {
     }
 }
 
-
+# Custom user model
+AUTH_USER_MODEL = "authentication.UnileverUser"
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
